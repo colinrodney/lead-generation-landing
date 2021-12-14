@@ -159,3 +159,11 @@ html {
 .main-content__tagline {
   margin-bottom: 1.5rem;
 }
+
+/* footer */
+.footer {
+  border: 2px solid red;
+  padding: 0 20p;
+  margin-top: 4rem;
+  text-align: center;
+}
