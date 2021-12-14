@@ -155,3 +155,7 @@ html {
   font-size: 32px;
   font-weight: 600;
 }
+
+.main-content__tagline {
+  margin-bottom: 1.5rem;
+}
