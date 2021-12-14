@@ -144,3 +144,8 @@ html {
   border: 2px solid white;
   padding: 0 20px;
 }
+
+.main-content__header {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
