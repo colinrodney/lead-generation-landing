@@ -4,3 +4,9 @@
   padding: 0;
   font-family: sans-serif;
 }
+
+html {
+  background: url("/assets/images/open-air-house-4.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+}
