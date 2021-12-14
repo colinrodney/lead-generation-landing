@@ -138,3 +138,9 @@ html {
     fixed;
   background-size: cover;
 }
+
+/* main-content section */
+.main-content {
+  border: 2px solid white;
+  padding: 0 20px;
+}
