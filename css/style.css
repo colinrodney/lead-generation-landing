@@ -148,6 +148,7 @@ html {
 .main-content {
   border: 2px solid white;
   padding: 0 20px;
+  line-height: 1.5;
 }
 
 .main-content__header {
