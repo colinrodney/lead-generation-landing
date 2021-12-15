@@ -170,6 +170,19 @@ html {
   width: 50%;
 }
 
+.main-content__cta a {
+  display: inline-block;
+  width: 60%;
+  border: 2px solid red;
+  background-color: red;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ffffff;
+}
+
 /* footer */
 .footer {
   border: 2px solid red;
