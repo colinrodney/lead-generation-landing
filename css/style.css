@@ -195,3 +195,7 @@ html {
   color: #ffffff;
   text-transform: capitalize;
 }
+
+.footer__text {
+  color: #ffffff;
+}
