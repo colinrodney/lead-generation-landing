@@ -190,3 +190,8 @@ html {
   margin-top: 4rem;
   text-align: center;
 }
+
+.footer__cta {
+  color: #ffffff;
+  text-transform: capitalize;
+}
