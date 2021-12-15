@@ -142,6 +142,10 @@ html {
   /* background-size: cover; */
 }
 
+:root {
+  --text-color: #ffffff;
+}
+
 .logo img {
   display: block;
   width: 50%;
