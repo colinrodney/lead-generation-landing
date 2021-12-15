@@ -139,6 +139,11 @@ html {
   background-size: cover;
 }
 
+.logo img {
+  display: block;
+  width: 50%;
+}
+
 /* main-content section */
 .main-content {
   border: 2px solid white;
