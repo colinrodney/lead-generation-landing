@@ -134,9 +134,12 @@ table {
 }
 
 html {
-  background: url("/assets/images/open-air-house-4.jpg") no-repeat center center
-    fixed;
-  background-size: cover;
+  background: linear-gradient(
+      rgba(92, 158, 207, 0.35),
+      rgba(92, 158, 207, 0.35)
+    ),
+    url("/assets/images/open-air-house-4.jpg") no-repeat center center fixed;
+  /* background-size: cover; */
 }
 
 .logo img {
