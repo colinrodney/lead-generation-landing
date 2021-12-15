@@ -201,3 +201,8 @@ html {
 .footer__text {
   color: #ffffff;
 }
+
+.footer__text-privacy-policy {
+  color: #ffffff;
+  text-transform: capitalize;
+}
