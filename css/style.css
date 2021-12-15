@@ -192,6 +192,8 @@ html {
 }
 
 .footer__cta {
+  display: block;
+  margin: 2.5rem 0;
   color: #ffffff;
   text-transform: capitalize;
 }
