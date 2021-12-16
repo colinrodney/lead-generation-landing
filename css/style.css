@@ -193,18 +193,20 @@ html {
 
 /* footer */
 .footer {
+  display: flex;
+  flex-direction: column;
   border: 2px solid red;
   padding: 0 20p;
   margin-top: 4rem;
   text-align: center;
 }
 
-.footer__cta {
+/* .footer__cta {
   display: block;
   margin: 2.5rem 0;
   color: #ffffff;
   text-transform: capitalize;
-}
+} */
 
 .footer__text {
   color: #ffffff;
@@ -213,4 +215,12 @@ html {
 .footer__text-privacy-policy {
   color: #ffffff;
   text-transform: capitalize;
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+  .main-content__headline p {
+    /* width: 100%; */
+    max-width: 33%;
+  }
 }
