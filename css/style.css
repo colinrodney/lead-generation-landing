@@ -193,8 +193,8 @@ html {
 
 /* footer */
 .footer {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto;
   border: 2px solid red;
   padding: 0 20p;
   margin-top: 4rem;
@@ -228,6 +228,9 @@ html {
     max-width: 33%;
   }
 
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .footer__cta {
     display: inline-block;
   }
