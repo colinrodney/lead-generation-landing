@@ -153,7 +153,7 @@ html {
 
 /* main-content section */
 .main-content {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   padding: 0 20px;
   line-height: 1.5;
   color: #ffffff;
@@ -195,7 +195,7 @@ html {
 .footer {
   display: grid;
   grid-template-rows: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 0 20p;
   margin-top: 4rem;
   text-align: center;
