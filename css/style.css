@@ -212,6 +212,10 @@ html {
   text-transform: capitalize;
 }
 
+.footer__cta a {
+  color: #ffffff;
+}
+
 .footer__text {
   color: #ffffff;
 }
