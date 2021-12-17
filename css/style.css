@@ -139,7 +139,7 @@ html {
       rgba(58, 100, 140, 0.65)
     ),
     url("/assets/images/open-air-house-4.jpg") no-repeat center center fixed;
-  /* background-size: cover; */
+  background-size: cover;
 }
 
 :root {
