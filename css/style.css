@@ -180,7 +180,8 @@ html {
 
 .main-content__cta a {
   display: inline-block;
-  width: 60%;
+  /* width: 350px; */
+  max-width: 250px;
   border: 2px solid red;
   background-color: red;
   text-decoration: none;
