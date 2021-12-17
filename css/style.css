@@ -201,6 +201,10 @@ html {
   text-align: center;
 }
 
+.footer__content {
+  padding: 2rem 0;
+}
+
 .footer__cta {
   /* display: block; */
   margin: 2.5rem 0;
