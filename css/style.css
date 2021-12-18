@@ -192,6 +192,13 @@ html {
   color: #ffffff;
 }
 
+/* MODAL WINDOW */
+.modal {
+  text-align: center;
+  background-color: lightgray;
+  padding: 1rem;
+}
+
 /* footer */
 .footer {
   display: grid;
