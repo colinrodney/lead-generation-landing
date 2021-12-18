@@ -194,6 +194,8 @@ html {
 
 /* MODAL WINDOW */
 .modal {
+  /* initial display value- REMOVE NONE WHEN TESTING */
+  display: none;
   text-align: center;
   background-color: lightgray;
   padding: 1rem;
