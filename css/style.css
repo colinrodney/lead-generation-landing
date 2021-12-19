@@ -146,6 +146,11 @@ html {
   --text-color: #ffffff;
 }
 
+/* class + declarations to be added for modal */
+.modal-overlay {
+  background: linear-gradient(rgba(54, 54, 54, 0.45), rgba(54, 54, 54, 0.45));
+}
+
 .logo img {
   display: block;
   width: 250px;
