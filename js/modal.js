@@ -20,4 +20,5 @@ button.addEventListener("click", myFunction);
 
 function myFunction() {
   console.log("button clicked");
+  html.classList.add("modal-overlay");
 }
