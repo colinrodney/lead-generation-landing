@@ -1,7 +1,7 @@
 console.warn("connected");
 
 // DOM SETUP
-let html = document.getElementById("#html-main");
+let html = document.getElementById("html-main");
 console.log(html);
 
 // change HTML background tint to darkgray color rgb(54,54,54)
@@ -9,10 +9,10 @@ console.log(html);
 //   "linear - gradient(rgba(54,54,54,.45),rgba(54,54,54,.45))";
 
 // button click event
-let button = document.getElementById("#main-cta");
+let button = document.getElementById("main-cta");
 console.log(button);
 
-button[0].addEventListener("click", myFunction);
+button.addEventListener("click", myFunction);
 
 function myFunction() {
   console.log("button clicked");
