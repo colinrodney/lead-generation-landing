@@ -148,7 +148,9 @@ html {
 
 /* class + declarations to be added for modal */
 .modal-overlay {
-  background: linear-gradient(rgba(54, 54, 54, 0.45), rgba(54, 54, 54, 0.45));
+  background: linear-gradient(rgba(54, 54, 54, 0.75), rgba(54, 54, 54, 0.75)),
+    url("/assets/images/open-air-house-4.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .logo img {

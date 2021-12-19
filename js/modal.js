@@ -8,6 +8,9 @@ console.log(html);
 html.style.background =
   "linear - gradient(rgba(54,54,54,.45),rgba(54,54,54,.45))";
 
+let modal_Overlay = document.getElementById("modal-overlay");
+console.log("modal-overlay");
+
 // consider creating a class w/ these styles in CSS file and add className to HTML element when main cta button is clicked"
 
 // console.log(html.style.background);
