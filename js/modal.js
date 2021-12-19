@@ -6,7 +6,7 @@ console.log(html);
 
 // change HTML background tint to darkgray color rgb(54,54,54)
 let testStyle;
-html.style.background =
+testStyle.background =
   "linear - gradient(rgba(54,54,54,.45),rgba(54,54,54,.45))";
 
 // button click event
