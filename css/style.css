@@ -204,7 +204,8 @@ html {
   top: -330px;
   z-index: 3; /* modal window appears on top of modal overlay! */
   text-align: center;
-  background-color: lightgray;
+
+  background-color: rgb(58, 100, 140, 0.75);
   padding: 1rem;
 }
 
