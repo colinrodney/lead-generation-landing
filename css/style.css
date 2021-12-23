@@ -226,6 +226,8 @@ html {
   display: block;
   width: 70%;
   margin: 0.5rem auto;
+  border: none;
+  outline: none;
 }
 
 /* call to action button insdie modal element */
