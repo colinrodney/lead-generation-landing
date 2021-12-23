@@ -14,6 +14,9 @@ html.style.background =
 let modal_Overlay = document.getElementById("modal-overlay");
 console.log("modal-overlay");
 
+let close_Button = document.getElementById("close-button");
+console.log(close_Button);
+
 // consider creating a class w/ these styles in CSS file and add className to HTML element when main cta button is clicked"
 
 // console.log(html.style.background);
@@ -29,4 +32,11 @@ function myFunction() {
   modal_Overlay.classList.add("modal-overlay");
 
   modal_Window.style.display = "block";
+}
+
+close_Button.addEventListener("click", closeModal);
+function closeModal() {
+  console.log("close button clicked");
+  modal_Overlay.classList.remove("modal-overlay");
+  modal_Window.style.display = "none";
 }
