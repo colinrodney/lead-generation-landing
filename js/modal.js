@@ -27,4 +27,6 @@ button.addEventListener("click", myFunction);
 function myFunction() {
   console.log("button clicked");
   modal_Overlay.classList.add("modal-overlay");
+
+  modal_Window.style.display = "block";
 }
