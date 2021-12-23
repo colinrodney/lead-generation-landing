@@ -228,6 +228,13 @@ html {
   margin: 0.5rem auto;
 }
 
+/* call to action button insdie modal element */
+.modal__cta {
+  margin-top: 1rem;
+  width: 50%;
+  padding: 10px 20px;
+}
+
 /* .modal input {
   display: block;
   width: 100%;
