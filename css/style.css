@@ -237,6 +237,7 @@ html {
   padding: 10px 20px;
   background-color: red;
   color: #ffffff;
+  border: none;
 }
 
 /* .modal input {
