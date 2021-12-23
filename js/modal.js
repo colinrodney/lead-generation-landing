@@ -4,6 +4,9 @@ console.warn("connected");
 let html = document.getElementById("html-main");
 console.log(html);
 
+let modal_Window = document.querySelector(".modal");
+console.log(modal_Window);
+
 // change HTML background tint to darkgray color rgb(54,54,54)
 html.style.background =
   "linear - gradient(rgba(54,54,54,.45),rgba(54,54,54,.45))";
