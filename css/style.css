@@ -201,6 +201,7 @@ html {
   margin: 0 auto;
   display: none; /*modal window does not show @ page load*/
   position: relative;
+  top: -330px;
   z-index: 3; /* modal window appears on top of modal overlay! */
   text-align: center;
   background-color: lightgray;
