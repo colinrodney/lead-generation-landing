@@ -196,6 +196,9 @@ html {
 /* MODAL WINDOW */
 .modal {
   /* initial display value- REMOVE NONE WHEN TESTING */
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
   display: none; /*modal window does not show @ page load*/
   position: relative;
   z-index: 3; /* modal window appears on top of modal overlay! */
