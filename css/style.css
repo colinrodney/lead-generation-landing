@@ -198,6 +198,7 @@ html {
   /* initial display value- REMOVE NONE WHEN TESTING */
   /* display: none; */
   position: relative;
+  z-index: 3; /* modal window appears on top of modal overlay! */
   text-align: center;
   background-color: lightgray;
   padding: 1rem;
