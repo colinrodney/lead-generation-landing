@@ -143,9 +143,9 @@ html {
     URL POINTING TO LOCALLY STORED BACKGROUND IMAGE
     url("/assets/images/open-air-house-4.jpg") no-repeat center center fixed;
      */
-      url("https://i.postimg.cc/nrzS1V7K/open-air-house-4.jpg") no-repeat center
-      center fixed;
+      url("https://i.postimg.cc/nrzS1V7K/open-air-house-4.jpg") no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 :root {
