@@ -113,7 +113,7 @@ section {
 body {
   line-height: 1;
   position: relative;
-  height: 100%;
+  /* height: 100%; */
 }
 ol,
 ul {
@@ -136,7 +136,7 @@ table {
 }
 
 html {
-  height: 100%;
+  /* height: 100%; */
   background: linear-gradient(
       rgba(58, 100, 140, 0.65),
       rgba(58, 100, 140, 0.65)
