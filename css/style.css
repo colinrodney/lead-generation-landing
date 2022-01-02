@@ -303,6 +303,13 @@ html {
   text-transform: capitalize;
 }
 
+/* mobile screens */
+@media (max-width: 768px) {
+  html {
+    background-attachment: scroll;
+  }
+}
+
 /* Larger screens */
 @media (min-width: 768px) {
   .main-content__headline p {
