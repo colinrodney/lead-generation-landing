@@ -154,9 +154,11 @@ html {
   --text-color: #ffffff;
 }
 
-.logo img {
-  display: block;
-  width: 250px;
+.logo {
+  margin-top: 1.5rem;
+  padding: 20px;
+  font-size: 30px;
+  color: #ffffff;
 }
 
 /* main-content section */
