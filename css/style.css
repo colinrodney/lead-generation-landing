@@ -213,7 +213,7 @@ html {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  padding: 25px 50px;
+  /* padding: 25px 50px; */
   display: none; /*modal window does not show @ page load*/
   position: relative;
   top: -330px;
@@ -222,7 +222,7 @@ html {
   line-height: 1.5;
 
   background-color: rgb(58, 100, 140, 0.75);
-  padding: 1rem;
+  padding: 2.5rem;
 }
 
 .modal__close-button {
