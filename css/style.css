@@ -112,8 +112,8 @@ section {
 }
 body {
   line-height: 1;
-  position: relative;
-  /* height: 100%; */
+  position: absolute;
+  width: 100%;
 }
 ol,
 ul {
