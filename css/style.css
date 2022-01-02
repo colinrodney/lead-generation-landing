@@ -252,8 +252,12 @@ html {
   background-color: red;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
+/* .modal__cta:hover{
+
+} */
 /* .modal input {
   display: block;
   width: 100%;
