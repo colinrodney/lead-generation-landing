@@ -255,9 +255,9 @@ html {
   cursor: pointer;
 }
 
-/* .modal__cta:hover{
-
-} */
+.modal__cta:hover {
+  background-color: #c50000;
+}
 /* .modal input {
   display: block;
   width: 100%;
