@@ -188,6 +188,10 @@ html {
   width: 50%;
 }
 
+.main-content__cta {
+  width: 196px;
+}
+
 .main-content__cta a {
   display: inline-block;
   /* width: 350px; */
