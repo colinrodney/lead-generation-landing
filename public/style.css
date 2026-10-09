@@ -1,0 +1,344 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: sans-serif;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  position: relative;
+  /* width: 100%; */
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  /* height: 100%; */
+  background: linear-gradient(
+      rgba(58, 100, 140, 0.65),
+      rgba(58, 100, 140, 0.65)
+    ),
+    /* 
+    URL POINTING TO LOCALLY STORED BACKGROUND IMAGE
+    url("/assets/images/open-air-house-4.jpg") no-repeat center center fixed;
+     */
+      url("https://i.postimg.cc/nrzS1V7K/open-air-house-4.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+:root {
+  --text-color: #ffffff;
+}
+
+.logo {
+  margin-top: 1.5rem;
+  padding: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+/* main-content section */
+.main-content {
+  /* border: 2px solid white; */
+  padding: 0 20px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.main-content__header {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-content__headline {
+  margin-bottom: 1.5rem;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.main-content__tagline {
+  margin-bottom: 1.5rem;
+}
+
+.main-content__tagline p {
+  width: 50%;
+}
+
+.main-content__cta {
+  width: 196px;
+}
+
+.main-content__cta a {
+  display: inline-block;
+  /* width: 350px; */
+  max-width: 250px;
+  /* border: 2px solid red; */
+  background-color: red;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* hover effect for MAIN call-to-action button */
+.main-content__cta a:hover {
+  background-color: #c50000;
+}
+
+/* MODAL WINDOW */
+.modal {
+  /* initial display value- REMOVE NONE WHEN TESTING */
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  /* padding: 25px 50px; */
+  display: none; /*modal window does not show @ page load*/
+  position: relative;
+  top: -330px;
+  z-index: 3; /* modal window appears on top of modal overlay! */
+  text-align: center;
+  line-height: 1.5;
+
+  background-color: rgb(58, 100, 140, 0.75);
+  padding: 2.5rem;
+}
+
+.modal__close-button {
+  position: absolute;
+  right: 50px;
+  font-size: 24px;
+}
+
+.modal__close-button span {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modal__input-field {
+  display: block;
+  width: 70%;
+  margin: 0.5rem auto;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+}
+
+/* call to action button insdie modal element */
+.modal__cta {
+  margin-top: 1rem;
+  width: 50%;
+  padding: 10px 20px;
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.modal__cta:hover {
+  background-color: #c50000;
+}
+/* .modal input {
+  display: block;
+  width: 100%;
+  margin: 0.5rem auto;
+} */
+
+/* class + declarations to be added for modal */
+.modal-overlay {
+  /* background: linear-gradient(rgba(54, 54, 54, 0.75), rgba(54, 54, 54, 0.75)),
+    url("/assets/images/open-air-house-4.jpg") no-repeat center center fixed;
+  background-size: cover; */
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  top: -100%;
+  right: 0;
+  bottom: -100%;
+  left: 0;
+  background-color: rgba(54, 54, 54, 0.75);
+  /* z-index: 2;  */
+}
+
+/* footer */
+.footer {
+  display: grid;
+  grid-template-rows: auto;
+  /* border: 2px solid red; */
+  padding: 0 20p;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.footer__content {
+  padding: 2rem 0;
+}
+
+.footer__cta {
+  /* display: block; */
+  margin: 2.5rem 0;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.footer__cta a {
+  color: #ffffff;
+}
+
+.footer__text {
+  color: #ffffff;
+}
+
+.footer__text-privacy-policy {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+/* mobile screens */
+@media (max-width: 768px) {
+  html {
+    background-attachment: scroll;
+  }
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+  .main-content__headline p {
+    /* width: 100%; */
+    max-width: 33%;
+  }
+
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer__cta {
+    display: inline-block;
+  }
+}
