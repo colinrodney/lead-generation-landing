@@ -26,8 +26,8 @@ app.use(express.json());
 // const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 // 1. Serve compiled static frontend assets from 'public' directory
-// app.use(express.static(path.join(__dirname, "public")));
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "public")));
+// app.use(express.static("public"));
 
 // ROUTES
 app.get('/', (req, res) => {
